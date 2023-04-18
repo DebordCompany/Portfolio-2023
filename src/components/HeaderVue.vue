@@ -1,0 +1,52 @@
+<template>
+  <div class="header">
+    <div class="header_title">
+      <p class="header_title_p"> <router-link :to="{name: 'home'}"></router-link> Debord Company</p>
+    </div>
+    <div class="header_menu">
+      <div class="header_menu_icon">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="32"
+          height="32"
+          fill="currentColor"
+          class="header_svg"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+</template>
+<style lang="scss" scoped>
+.header {
+    background: var(--color-background);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.5em;
+    width: 100%;
+    
+}
+.header_title {
+    width: 100%;
+}
+.header_title_p {
+  color: var(--color-text);
+  font-weight: 600;
+  font-size: 1em;
+}
+.header_menu{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.header_menu_icon{
+  width: 32px;
+  height: 32px;
+}
+</style>
