@@ -1,20 +1,20 @@
 <script>
 export default {
-    props: ["title", "description", "skills", "icon"]
+    props: ["title", "description", "skills", "link", "icon", "bg", "hr", "iconBG"]
 }
 </script>
 <template>
 
-    <div class="skills">
+    <div class="skills " :class="bg">
         <div class="skills_inner">
             <div class="skills_title">{{ title }}</div>
-            <div class="skills_hr">
+            <div class="skills_hr" :class="hr">
                 <hr>
             </div>
             <div class="skills_description">
                 <p>{{ description }}</p>
             </div>
-            <div class="skills_hr">
+            <div class="skills_hr" :class="hr">
                 <hr>
             </div>
             <div class="skill_list">
@@ -24,8 +24,8 @@ export default {
             </div>
             
             <div class="skills_icons">
-                <div class="skills_icons_inner" v-for="icon in icon" :key="icon">
-                <img :src="icon" alt="">
+                <div class="skills_icons_inner" :class="iconBG" v-for="icon in icon" :key="icon">
+               <img :src="icon" alt="">
                 
             </div>
             </div>
@@ -35,7 +35,11 @@ export default {
 </template>
 <style lang="scss" scoped>
 .skills{
-    
+    color: var(--color-text);
+}
+.skills--bg{
+    background: var(--color-primary);
+    color: var(--white-soft);
 }
 .skills_inner{
     display: flex;
@@ -49,6 +53,9 @@ export default {
 }
 .skills_hr{
     border: 1px solid var(--black);
+}
+.skills_hr--white{
+    border: 1px solid var(--white-soft);
 }
 .skills_list{
     display: flex;
@@ -65,8 +72,17 @@ export default {
     gap: 1em;
     padding-top: 1em;
 }
-.skills_icons img{
+.skills_icons_inner{
     width: 40px;
     height: 40px;
+    filter: var(--color-icons);
+    
 }
+.skills_icons_inner--white{
+    width: 40px;
+    height: 40px;
+    filter: var(--filter-normal);
+    
+}
+
 </style>

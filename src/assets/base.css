@@ -45,7 +45,10 @@
   --color-primary: #622FCA;
   --color-secondary: #A588DF;
   --general-padding: 0 2em;
-  
+  --filter-normal: invert(0%);
+  --filter-invert: invert(100%);
+  --blend-multiply: multiply;
+  --blend-screen:  color-dodge;
 
   
   
@@ -55,8 +58,12 @@
 /* semantic color variables for this project */
 :root {
   --color-background: var(--white);
+  --color-background-button: var(--black);
   --color-background-primary: var(--color-primary);
-  --color-text: var(--black)
+  --color-lines: var(--black-mute);
+  --color-text: var(--black);
+  --color-icons: var(--filter-normal);
+  --blend: var(--blend-multiply);
  
 
   --section-gap: 0 2em;
@@ -65,8 +72,12 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --color-background: var(--black);
+    --color-background-button: var(--white);
     --color-background-primary: var(--color-secondary);
-    --color-text: var(--white-soft)
+    --color-lines: var(--white-soft);
+    --color-text: var(--white-soft);
+    --color-icons: var(--filter-invert);
+    --blend: var(--blend-screen);
     
     
   }

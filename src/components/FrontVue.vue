@@ -32,7 +32,8 @@ export default {
   width: 90%;
   height: 100px;
   background: var(--color-primary);
-  mix-blend-mode: multiply;
+  mix-blend-mode: var(--blend);
+  
 }
 .home_front_container--left{
   justify-content: flex-start;

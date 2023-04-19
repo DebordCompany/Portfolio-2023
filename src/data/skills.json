@@ -2,8 +2,30 @@
     "design": {
         "title": "Design",
         "description": "Mi principal pasión, me encantan las cosas minimalistas y muy funcionales, que cualquiera que las vea sepa usarlas sin decirle nada.",
-        "skills": ["Adobe Photoshop", "Adobe Illustrator"],
+        "skills": ["Adobe Photoshop",
+        "Adobe Illustrator",
+        "Adobe After Effects",
+        "Adobe Indesign",
+        "Adobe Lightroom",
+        "Cinema 4D",
+        "Fotografía y retoque fotográfico"],
         "icon": ["/img/instagram.svg", "/img/linkedin.svg"]
+        
+    },
+    "develop": {
+        "title": "Developer",
+        "description": "Un descubrimiento en mi vida, siempre me ha gustado aprender y este campo es infinito.",
+        "skills": ["Html",
+        "Css3",
+        "Javascript",
+        "Vue.js",
+        "Bootstrap",
+        "Tailwind",
+        "Vite",
+        "Git", 
+        "GitHub"],
+        "icon": ["/img/github-white.svg", "/img/linkedin-white.svg"]
+        
         
     }
         

@@ -4,6 +4,13 @@ import FrontVue from "../components/FrontVue.vue";
 import HallVue from "../components/HallVue.vue";
 import SkillsVue from "../components/SkillsVue.vue";
 import skills from "../data/skills.json";
+import ProyectCardVue from "../components/ProyectCardVue.vue";
+import proyectsData from "../data/proyects.json"
+</script>
+<script>
+export default {
+  
+}
 </script>
 
 <template>
@@ -19,6 +26,7 @@ import skills from "../data/skills.json";
     />
     <div class="home_content">
       <HallVue
+      
       item_1="Skills"
       item_2="Proyectos"
       item_3="Curriculum"
@@ -38,14 +46,40 @@ import skills from "../data/skills.json";
     imagen="/img/buho_right.png"
     />
     <div class="home_content">
-      <h2 class="skills_title">Skills</h2>
+      <h2 class="skills_title" id="skills">Skills</h2>
     </div>
     <SkillsVue
     :title="skills.design.title"
     :description="skills.design.description"
     :skills="skills.design.skills"
     :icon="skills.design.icon"
+    
+    
     />
+    <SkillsVue
+    :title="skills.develop.title"
+    :description="skills.develop.description"
+    :skills="skills.develop.skills"
+    :icon="skills.develop.icon"
+    bg="skills--bg"
+    hr="skills_hr--white"
+    iconBG="skills_icons_inner--white"
+    
+    
+    />
+    <div class="home_content proyects" id="proyects">
+      <h2 class="proyects_title">Proyectos</h2>
+      <div class="Proyects_items" >
+        <ProyectCardVue
+        :title="proyectsData.debord.title"
+        :img="proyectsData.debord.img"
+        :minDesc="proyectsData.debord.minDesc"
+        
+        />
+      </div>
+      
+    </div>
+    
   </div>
 </template>
 <style lang="scss" scoped>
@@ -66,7 +100,8 @@ import skills from "../data/skills.json";
   font-size: 2.5em;
   font-weight: 900;
   line-height: 1.3em;
-  padding: 1em 0;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 
@@ -82,6 +117,15 @@ import skills from "../data/skills.json";
   font-weight: 800;
 }
 .skills_title{
+  font-size: 2.5em;
+  font-weight: 800;
+}
+.proyects{
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+.proyects_title{
   font-size: 2.5em;
   font-weight: 800;
 }

@@ -1,11 +1,29 @@
 <script>
 export default {
-    props: ["item_1", "item_2", "item_3"]
+    props: ["item_1", "item_2", "item_3" ],
+    methods: {
+      skills() {
+        const skills = document.querySelector("#skills")
+        skills.scrollIntoView()
+        
+      },
+      proyects() {
+        const proyects = document.querySelector("#proyects")
+        proyects.scrollIntoView()
+        
+        
+      },
+      cv() {
+        const cv = document.querySelector("#cv")
+        cv.scrollIntoView()
+        
+      }
+    }
 }
 </script>
 <template>
     <div class="home_distribuidor">
-        <div class="home_distribuidor_item">
+        <div class="home_distribuidor_item" @click="skills">
         <h2 class="home_distribuidor_item_h2">{{item_1}}</h2>
         <div class="home_distribuidor_item_arrow">
           <svg
@@ -23,7 +41,7 @@ export default {
           </svg>
         </div>
       </div>
-      <div class="home_distribuidor_item">
+      <div class="home_distribuidor_item" @click="proyects">
         <h2 class="home_distribuidor_item_h2">{{ item_2 }}</h2>
         <div class="home_distribuidor_item_arrow">
           <svg
@@ -41,7 +59,7 @@ export default {
           </svg>
         </div>
       </div>
-      <div class="home_distribuidor_item">
+      <div class="home_distribuidor_item" @click="cv">
         <h2 class="home_distribuidor_item_h2">{{ item_3 }}</h2>
         <div class="home_distribuidor_item_arrow">
           <svg
