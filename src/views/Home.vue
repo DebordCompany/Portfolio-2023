@@ -47,6 +47,7 @@ export default {
     />
     <div class="home_content">
       <h2 class="skills_title" id="skills">Skills</h2>
+      
     </div>
     <SkillsVue
     :title="skills.design.title"
@@ -117,15 +118,18 @@ export default {
   font-weight: 800;
 }
 .skills_title{
+  scroll-margin-top: 2em;
   font-size: 2.5em;
   font-weight: 800;
 }
 .proyects{
+  
   display: flex;
   flex-direction: column;
   gap: 2em;
 }
 .proyects_title{
+  scroll-margin-top: 2em;
   font-size: 2.5em;
   font-weight: 800;
 }
