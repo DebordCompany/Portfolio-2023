@@ -31,7 +31,7 @@ export default {
     padding: 1em;
     display: flex;
     flex-direction: column;
-    gap: 1em;
+    gap: 2em;
 }
 .proyects_content{
     display: flex;
@@ -45,7 +45,7 @@ export default {
 
 .proyects_button{
     font-weight: 600;
-    padding: 1em;
+    padding: .8em;
     background: var(--color-background-button);
     color: var(--color-background);
     display: flex;

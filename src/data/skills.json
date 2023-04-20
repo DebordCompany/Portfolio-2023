@@ -9,7 +9,17 @@
         "Adobe Lightroom",
         "Cinema 4D",
         "Fotografía y retoque fotográfico"],
-        "icon": ["/img/instagram.svg", "/img/linkedin.svg"]
+        "icon": {
+            "linkUrl":{
+                "url": "https://www.instagram.com/debordcompany/?igshid=YmMyMTA2M2Y%3D",
+                "img": "/img/instagram.svg"
+            },
+            "linkImg":{
+                "url": "https://www.linkedin.com/in/mario-sanz-guti%C3%A9rrez-designer-2730531b8/",
+                "img": "/img/linkedin.svg"
+            }
+            
+        }
         
     },
     "develop": {
@@ -24,7 +34,17 @@
         "Vite",
         "Git", 
         "GitHub"],
-        "icon": ["/img/github-white.svg", "/img/linkedin-white.svg"]
+        "icon": {
+            "linkUrl":{
+                "url": "https://github.com/DebordCompany",
+                "img": "/img/github-white.svg"
+            },
+            "linkImg":{
+                "url": "https://www.linkedin.com/in/mario-sanz-guti%C3%A9rrez-designer-2730531b8/",
+                "img": "/img/linkedin-white.svg"
+            }
+            
+        }
         
         
     }

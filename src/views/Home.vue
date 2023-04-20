@@ -62,6 +62,7 @@ export default {
     :description="skills.develop.description"
     :skills="skills.develop.skills"
     :icon="skills.develop.icon"
+    
     bg="skills--bg"
     hr="skills_hr--white"
     iconBG="skills_icons_inner--white"
