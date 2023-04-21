@@ -1,14 +1,21 @@
 <script setup>
-import HeaderVue from "../components/HeaderVue.vue";
+
 import FrontVue from "../components/FrontVue.vue";
 import HallVue from "../components/HallVue.vue";
 import SkillsVue from "../components/SkillsVue.vue";
 import skills from "../data/skills.json";
 import ProyectCardVue from "../components/ProyectCardVue.vue";
+
 import proyectsData from "../data/proyects.json"
 </script>
 <script>
 export default {
+  data() {
+    return {
+      menu: false,
+    };
+  },
+  
   
 }
 </script>
@@ -16,11 +23,12 @@ export default {
 <template>
   <div class="main">
     <div class="home_content">
-      <HeaderVue class="headerVue" />
+      
       <div class="home_title">
         <h1 class="home_title_h1">Graphic designer and front-end developer</h1>
       </div>
     </div>
+    
     <FrontVue
     imagen="/img/buho_left.png"
     />
@@ -87,6 +95,19 @@ export default {
 <style lang="scss" scoped>
 .main{
   background: var(--color-background);
+}
+.home_menu{
+  overflow: hidden;
+  height: 0px;
+  width: 100%;
+  transition: height .3s ease;
+}
+.home_menu_active{
+  height: 100vh;
+  box-shadow: 0px 0px 10px -5px var(--black);
+  
+  
+  
 }
 .home_content {
   background: var(--color-background);

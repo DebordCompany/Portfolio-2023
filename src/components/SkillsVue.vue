@@ -10,6 +10,11 @@ export default {
     "hr",
     "iconBG",
   ],
+  methods: {
+    menu (event) {
+      this.$emit('clicked')
+    }
+  }
 };
 </script>
 <template>
@@ -33,7 +38,7 @@ export default {
 
       <div class="skills_icons">
         <div
-          class="skills_icons_inner"
+          class="skills_icons_inner icons"
           :class="iconBG"
           v-for="icon in icon"
           :key="icon"

@@ -16,7 +16,8 @@ export default {
             </div>
             <div class="proyects_button">
                 <!-- añadir router link cuando este prepradp -->
-                <p class="proyects_button_p">INSPECCIONAR</p>
+                <router-link :to="{name: 'prueba'}"><p class="proyects_button_p">INSPECCIONAR</p></router-link>
+                
             </div>
             </div>
             

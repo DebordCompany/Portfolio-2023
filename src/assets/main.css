@@ -1,2 +1,5 @@
 @import './base.css';
 
+.icons {
+    filter: var(--color-icons);
+  }

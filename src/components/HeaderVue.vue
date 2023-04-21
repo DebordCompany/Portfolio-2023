@@ -1,10 +1,19 @@
+<script>
+export default {
+  methods: {
+    menu (event) {
+      this.$emit('clicked')
+    }
+  }
+}
+</script>
 <template>
   <div class="header">
     <div class="header_title">
       <p class="header_title_p"> <router-link :to="{name: 'home'}"></router-link> Debord Company</p>
     </div>
     <div class="header_menu">
-      <div class="header_menu_icon">
+      <div class="header_menu_icon icons" >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="32"
@@ -12,6 +21,7 @@
           fill="currentColor"
           class="header_svg"
           viewBox="0 0 16 16"
+          @click="menu"
         >
           <path
             fill-rule="evenodd"
