@@ -39,8 +39,9 @@
   --white-mute: #f2f2f2;
 
   --black: #303030;
-  --black-soft: #222222;
+  --black-hard: #202020;
   --black-mute: #282828;
+  
 
   --color-primary: #622FCA;
   --color-secondary: #A588DF;
@@ -50,6 +51,9 @@
   --blend-multiply: multiply;
   --blend-screen:  color-dodge;
 
+  --padding-main: 2em ;
+  --gap-section: 2em;
+  
   
   
   
@@ -59,6 +63,7 @@
 :root {
   --color-background: var(--white);
   --color-background-button: var(--black);
+  --footer-background: var(--black);
   --color-background-primary: var(--color-primary);
   --color-lines: var(--black-mute);
   --color-text: var(--black);
@@ -71,8 +76,9 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-background: var(--black);
+    --color-background: var(--black-hard);
     --color-background-button: var(--white);
+    --footer-background: var(--color-primary)
     --color-background-primary: var(--color-secondary);
     --color-lines: var(--white-soft);
     --color-text: var(--white-soft);

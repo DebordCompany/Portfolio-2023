@@ -1,12 +1,12 @@
 <script setup>
-
+import TitleVue from "../components/TitleVue.vue";
 import FrontVue from "../components/FrontVue.vue";
 import HallVue from "../components/HallVue.vue";
+import SeoVue from "../components/SeoVue.vue";
 import SkillsVue from "../components/SkillsVue.vue";
 import skills from "../data/skills.json";
 import ProyectCardVue from "../components/ProyectCardVue.vue";
-
-import proyectsData from "../data/proyects.json"
+import proyectsData from "../data/proyects.json";
 </script>
 <script>
 export default {
@@ -15,144 +15,148 @@ export default {
       menu: false,
     };
   },
-  
-  
-}
+};
 </script>
 
 <template>
-  <div class="main">
-    <div class="home_content">
-      
-      <div class="home_title">
-        <h1 class="home_title_h1">Graphic designer and front-end developer</h1>
-      </div>
-    </div>
-    
-    <FrontVue
-    imagen="/img/buho_left.png"
-    />
-    <div class="home_content">
-      <HallVue
-      
-      item_1="Skills"
-      item_2="Proyectos"
-      item_3="Curriculum"
+  <div class="main max-width">
+    <section class="wrapper">
+      <TitleVue
+        class="wrapper_content"
+        text="Graphic designer and front-end developer"
       />
-      <div class="home_description">
-        <div class="home_description_h2">Texto para SEO</div>
-        <div class="home_description_p">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem veniam natus quae, iusto distinctio reprehenderit sint et facere, dolore accusantium porro doloremque perspiciatis! Minus exercitationem consectetur commodi, recusandae labore nobis, dolorem quis vitae pariatur deserunt debitis dolores est voluptas asperiores tenetur illo? Quo ipsum error, quibusdam ad molestiae ut omnis.
+      <FrontVue class="wrapper_section" imagen="/img/buho_left.png" />
+    </section>
+    <section class="wrapper wrapper_section">
+      <HallVue
+        class="wrapper_content wrapper_section"
+        item_1="Skills"
+        item_2="Proyectos"
+        item_3="Contacto"
+      />
+      <SeoVue class="wrapper_content wrapper_section" />
+    </section>
+
+    <FrontVue
+      class="front--desktop wrapper_section"
+      container="home_front_container--left"
+      square="home_front_square--left"
+      imagen="/img/buho_right.png"
+    />
+
+    <div class="skills wrapper_content wrapper_section">
+      <h2 class="skills_title" id="skills">Skills</h2>
+    </div>
+
+    <div class="wrapper w">
+      <SkillsVue
+        :title="skills.design.title"
+        :description="skills.design.description"
+        :skills="skills.design.skills"
+        :icon="skills.design.icon"
+      />
+      <SkillsVue
+        :title="skills.develop.title"
+        :description="skills.develop.description"
+        :skills="skills.develop.skills"
+        :icon="skills.develop.icon"
+        bg="skills--bg"
+        hr="skills_hr--white"
+        iconBG="skills_icons_inner--white"
+      />
+    </div>
+    <div class="proyects wrapper_content wrapper_section">
+      <h2 class="home_proyects_title" id="proyects">Proyectos</h2>
+      <div class="wrapper_loop">
+        <div class="home_Proyects_items">
+          <ProyectCardVue
+            :title="proyectsData.debord.title"
+            :img="proyectsData.debord.img"
+            :minDesc="proyectsData.debord.minDesc"
+          />
         </div>
       </div>
-      
-      
-    </div>
-    <FrontVue
-    container="home_front_container--left"
-    square="home_front_square--left"
-    imagen="/img/buho_right.png"
-    />
-    <div class="home_content">
-      <h2 class="skills_title" id="skills">Skills</h2>
-      
-    </div>
-    <SkillsVue
-    :title="skills.design.title"
-    :description="skills.design.description"
-    :skills="skills.design.skills"
-    :icon="skills.design.icon"
-    
-    
-    />
-    <SkillsVue
-    :title="skills.develop.title"
-    :description="skills.develop.description"
-    :skills="skills.develop.skills"
-    :icon="skills.develop.icon"
-    
-    bg="skills--bg"
-    hr="skills_hr--white"
-    iconBG="skills_icons_inner--white"
-    
-    
-    />
-    <div class="home_content proyects" id="proyects">
-      <h2 class="proyects_title">Proyectos</h2>
-      <div class="Proyects_items" >
-        <ProyectCardVue
-        :title="proyectsData.debord.title"
-        :img="proyectsData.debord.img"
-        :minDesc="proyectsData.debord.minDesc"
-        
-        />
+      <div class="proyects_items">
+        <p class="proyects_items_p">Ver mas...</p>
       </div>
-      
     </div>
-    
   </div>
 </template>
 <style lang="scss" scoped>
-.main{
+.main {
   background: var(--color-background);
+  color: var(--color-text);
 }
-.home_menu{
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+
+  @include tablet() {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.wrapper_loop {
+  display: grid;
+  grid-template-columns: 1fr;
+
+  @include tablet() {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+.front--desktop {
+  display: block;
+  @include tablet() {
+    display: none;
+  }
+}
+.wrapper_content {
+  padding-right: var(--padding-main);
+  padding-left: var(--padding-main);
+}
+.wrapper_section {
+  padding-top: var(--gap-section);
+}
+.home_menu {
   overflow: hidden;
   height: 0px;
   width: 100%;
-  transition: height .3s ease;
+  transition: height 0.3s ease;
 }
-.home_menu_active{
+.home_menu_active {
   height: 100vh;
   box-shadow: 0px 0px 10px -5px var(--black);
-  
-  
-  
 }
 .home_content {
   background: var(--color-background);
   color: var(--color-text);
-  padding: 2em;
+  padding: var(--padding-main);
   width: 100%;
-}
-.headerVue {
-  width: 100%;
-}
-.home_title_h1 {
-  color: var(--color-text);
-  font-size: 2.5em;
-  font-weight: 900;
-  line-height: 1.3em;
-  padding-top: 2em;
-  padding-bottom: 2em;
-}
-
-
-.home_description{
-  padding: 3em 0;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 1em;
-}
-.home_description_h2{
-  font-size: 2.5em;
-  font-weight: 800;
-}
-.skills_title{
-  scroll-margin-top: 2em;
-  font-size: 2.5em;
-  font-weight: 800;
-}
-.proyects{
-  
   display: flex;
   flex-direction: column;
   gap: 2em;
 }
-.proyects_title{
+.headerVue {
+  width: 100%;
+}
+
+.skills_title {
   scroll-margin-top: 2em;
   font-size: 2.5em;
   font-weight: 800;
+}
+.home_proyects {
+  padding-top: var(--gap-main);
+  padding-bottom: var(--gap-main);
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+.home_proyects_title {
+  scroll-margin-top: 5em;
+  font-size: 2.5em;
+  font-weight: 800;
+}
+.home_proyects_items_p {
+  font-weight: 600;
 }
 </style>

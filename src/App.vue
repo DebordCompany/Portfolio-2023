@@ -1,8 +1,8 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import HeaderVue from './components/HeaderVue.vue';
-import MenuVue from './components/MenuVue.vue';
-
+import { RouterLink, RouterView } from "vue-router";
+import HeaderVue from "./components/HeaderVue.vue";
+import MenuVue from "./components/MenuVue.vue";
+import FooterVue from "./components/FooterVue.vue";
 </script>
 <script>
 export default {
@@ -12,49 +12,53 @@ export default {
     };
   },
   methods: {
-    menuActive(){
-      this.menu = !this.menu
-    }
-  }
-  
-}
+    menuActive() {
+      this.menu = !this.menu;
+    },
+  },
+};
 </script>
 <template>
-  <header>
-    <div class="main">
+  <div class="main_bg">
+    <div class="main_inner ">
+      <header>
+        <div class="">
+          <HeaderVue class="headerVue" @clicked="menuActive" />
+          <MenuVue
+            class="home_menu"
+            :class="{ home_menu_active: menu }"
+            @click="menuActive"
+          />
+        </div>
+      </header>
 
-      <HeaderVue class="headerVue" 
-      @clicked="menuActive"
-      
-      />
-      <MenuVue
-    class="home_menu"
-    :class="{home_menu_active: menu}"
-    @click="menuActive"
-    />
+      <RouterView />
+      <FooterVue />
     </div>
-    
-  </header>
-
-  <RouterView />
+  </div>
 </template>
 
 <style lang="scss" scoped>
-.main{
+.main_bg {
   background: var(--color-background);
+  color: var(--color-text);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.home_menu{
+.main_inner{
+  padding-top: 4em;
+}
+.home_menu {
   overflow: hidden;
   height: 0px;
   width: 100%;
-  transition: height .3s ease;
+  transition: height 0.3s ease;
 }
-.home_menu_active{
+.home_menu_active {
   height: 100vh;
   box-shadow: 0px 0px 10px -5px var(--black);
-  
-  
-  
 }
 .home_content {
   background: var(--color-background);
