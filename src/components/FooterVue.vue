@@ -23,7 +23,8 @@ export default {
 </script>
 
 <template>
-    <div class="footer_main">
+    <div class="footer">
+        <div class="footer_main">
         <div class="footer_main_link">
             <ul class="footer_main_link_ul">
                 <li @click="skills()" class="footer_main_link_li">Skills</li>
@@ -48,9 +49,19 @@ export default {
             <a href="" class="footer_main_icons_link"><img src="/img/linkedin-white.svg" alt=""></a>
             <a href="" class="footer_main_icons_link"><img src="/img/instagram-white.svg" alt=""></a>
         </div>
+    </div> 
     </div>
+   
 </template>
 <style lang="scss" scoped>
+.footer{
+    background: var(--footer-background);
+    color: var(--white-soft);
+    display: flex;
+    
+    gap: 2em;
+    
+}
 .footer_main{
     background: var(--footer-background);
     color: var(--white-soft);
@@ -58,6 +69,8 @@ export default {
     display: flex;
     flex-direction: column;
     gap: 2em;
+    max-width: 1200px;
+    
 }
 .footer_main_link_ul{
     display: flex;
@@ -71,12 +84,11 @@ export default {
     font-weight: 600;
 }
 .footer_main_politica_p{
-    height: 0px;
-    overflow: hidden;
-    transition: all 2s ease;
+    display: none;
+    
 }
 .politica_active{
-    height: 30vh;
+    display: flex;
 }
 .footer_main_icons{
     display: flex;

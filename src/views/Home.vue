@@ -4,9 +4,12 @@ import FrontVue from "../components/FrontVue.vue";
 import HallVue from "../components/HallVue.vue";
 import SeoVue from "../components/SeoVue.vue";
 import SkillsVue from "../components/SkillsVue.vue";
-import skills from "../data/skills.json";
 import ProyectCardVue from "../components/ProyectCardVue.vue";
+import ContactVue from "../components/ContactVue.vue";
+import skills from "../data/skills.json";
+
 import proyectsData from "../data/proyects.json";
+
 </script>
 <script>
 export default {
@@ -48,7 +51,7 @@ export default {
       <h2 class="skills_title" id="skills">Skills</h2>
     </div>
 
-    <div class="wrapper w">
+    <div class="wrapper ">
       <SkillsVue
         :title="skills.design.title"
         :description="skills.design.description"
@@ -67,19 +70,21 @@ export default {
     </div>
     <div class="proyects wrapper_content wrapper_section">
       <h2 class="home_proyects_title" id="proyects">Proyectos</h2>
-      <div class="wrapper_loop">
-        <div class="home_Proyects_items">
+      <div class="wrapper_loop home_proyects_container">
+        <div class="home_proyects_items" v-for="proyectsData in proyectsData" :key="proyectsData">
           <ProyectCardVue
-            :title="proyectsData.debord.title"
-            :img="proyectsData.debord.img"
-            :minDesc="proyectsData.debord.minDesc"
+            :title="proyectsData.title"
+            :img="proyectsData.img"
+            :minDesc="proyectsData.minDesc"
           />
         </div>
       </div>
-      <div class="proyects_items">
-        <p class="proyects_items_p">Ver mas...</p>
-      </div>
+      
     </div>
+    <ContactVue
+    id="cv"
+    class="wrapper_margin home_contact"
+    />
   </div>
 </template>
 <style lang="scss" scoped>
@@ -98,6 +103,7 @@ export default {
 .wrapper_loop {
   display: grid;
   grid-template-columns: 1fr;
+  gap: 2em;
 
   @include tablet() {
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -115,6 +121,9 @@ export default {
 }
 .wrapper_section {
   padding-top: var(--gap-section);
+}
+.wrapper_margin{
+  margin-top: var(--margin-section);
 }
 .home_menu {
   overflow: hidden;
@@ -144,7 +153,10 @@ export default {
   font-size: 2.5em;
   font-weight: 800;
 }
-.home_proyects {
+.home_proyects_container{
+  padding-top: var(--gap-section);
+}
+.home_proyects_items {
   padding-top: var(--gap-main);
   padding-bottom: var(--gap-main);
   display: flex;
@@ -152,11 +164,15 @@ export default {
   gap: 2em;
 }
 .home_proyects_title {
-  scroll-margin-top: 5em;
+  scroll-margin-top: 2em;
   font-size: 2.5em;
   font-weight: 800;
 }
 .home_proyects_items_p {
   font-weight: 600;
+}
+.home_contact{
+  scroll-margin-top: 4em;
+  
 }
 </style>

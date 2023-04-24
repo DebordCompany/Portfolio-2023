@@ -19,23 +19,25 @@ export default {
 };
 </script>
 <template>
-  <div class="main_bg">
-    <div class="main_inner ">
-      <header>
-        <div class="">
+<header>
+        
           <HeaderVue class="headerVue" @clicked="menuActive" />
           <MenuVue
             class="home_menu"
             :class="{ home_menu_active: menu }"
             @click="menuActive"
           />
-        </div>
+       
       </header>
+  <div class="main_bg">
+    <div class="main_inner ">
+      
 
       <RouterView />
-      <FooterVue />
+      
     </div>
   </div>
+  <FooterVue />
 </template>
 
 <style lang="scss" scoped>
@@ -49,6 +51,7 @@ export default {
 }
 .main_inner{
   padding-top: 4em;
+  max-width: 1200px;
 }
 .home_menu {
   overflow: hidden;
@@ -66,7 +69,5 @@ export default {
   padding: 2em;
   width: 100%;
 }
-.headerVue {
-  width: 100%;
-}
+
 </style>

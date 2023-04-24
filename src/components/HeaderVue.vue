@@ -8,19 +8,20 @@ export default {
 }
 </script>
 <template>
-  <div class="header ">
-    <div class="header_inner">
+  <div class="header">
+    <div class="header_width">
+      <div class="header_inner">
       <div class="header_title">
       <p class="header_title_p"> <router-link :to="{name: 'home'}"></router-link> Debord Company</p>
     </div>
     <div class="header_menu">
-      <div class="header_menu_icon " >
+      <div class="header_menu_icon icons" >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="32"
           height="32"
           fill="currentColor"
-          class="header_svg "
+          class="bi "
           viewBox="0 0 16 16"
           @click="menu"
         >
@@ -32,26 +33,35 @@ export default {
       </div>
     </div>
     </div>
+    </div>
+    
     
   </div>
 </template>
 <style lang="scss" scoped>
 .header{
   
-  
+  display: flex;
+  justify-content: center;
+  position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    width: 100%;
+}
+.header_width{
+  max-width: 1200px;
+  width: 100%;
 }
 .header_inner {
     background: var(--color-background);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
     width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
+    
     padding:  1.5em 2em;
-    z-index: 9;
+   
     
     
 }

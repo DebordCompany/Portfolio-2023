@@ -39,6 +39,11 @@ export default {
     flex-direction: column;
     gap: 1em;
 }
+.proyects_img img{
+    aspect-ratio: 4/3;
+    filter: brightness(70%) grayscale(100%);
+    
+}
 .proyects_content_h3{
     font-size: 1.5em;
     font-weight: 600;

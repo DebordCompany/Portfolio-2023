@@ -50,7 +50,7 @@
   --filter-invert: invert(100%);
   --blend-multiply: multiply;
   --blend-screen:  color-dodge;
-
+  --margin-section: 2em;
   --padding-main: 2em ;
   --gap-section: 2em;
   
