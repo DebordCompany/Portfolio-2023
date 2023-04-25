@@ -56,7 +56,7 @@ export default {
 </template>
 <style lang="scss" scoped>
 .footer{
-    background: var(--footer-background);
+    background: var(--black);
     color: var(--white-soft);
     display: flex;
     

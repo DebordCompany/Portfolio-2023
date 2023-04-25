@@ -1,0 +1,54 @@
+{
+
+    "debord": {
+        "img": "/img/debord.jpg",
+        "alt": "imagen de debord"
+    },
+    "2gotours": {
+        "img": "/img/2GoTours.png",
+        "alt": "imagen de 2GoTours"
+    },
+    "buhoizq": {
+        "img": "/img/buho_left.png",
+        "alt": "imagen de buho izquierda"
+    },
+    "buhoder": {
+        "img": "/img/buho_right.png",
+        "alt": "imagen de buho der"
+    },
+    "ezpays": {
+        "img": "/img/ezpays-front.png",
+        "alt": "imagen de ezpays"
+    },
+    "githubwhite": {
+        "img": "/img/github-white.svg",
+        "alt": "imagen de github white"
+    },
+    "github": {
+        "img": "/img/github.svg",
+        "alt": "imagen de github"
+    },
+    "instawhite": {
+        "img": "/img/instagram-white.svg",
+        "alt": "imagen de instragram white"
+    },
+    "insta": {
+        "img": "/img/instagram.svg",
+        "alt": "imagen de instagram"
+    },
+    "linkedinwhite": {
+        "img": "/img/linkedin-white.svg",
+        "alt": "imagen de linkedin white"
+    },
+    "linkedin": {
+        "img": "/img/linkedin.svg",
+        "alt": "imagen de linkedin"
+    },
+    "trazos": {
+        "img": "/img/trazos.png",
+        "alt": "imagen de trazos"
+    }
+       
+        
+    
+}

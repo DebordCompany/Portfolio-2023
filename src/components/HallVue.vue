@@ -88,6 +88,7 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
 .home_distribuidor_item_h2 {
   font-size: 2.5em;

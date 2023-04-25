@@ -49,15 +49,22 @@ export default {
   top: 0;
   left: 0;
   z-index: 3;
+  
     
 }
 .menu_inner{
     height: 100vh;
     width: 100%;
+    
+    margin: 0 auto;
     padding: 2em;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    @include tablet(){
+        max-width: 500px;
+        
+    }
     
     
 }
