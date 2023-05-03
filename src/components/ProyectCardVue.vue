@@ -1,6 +1,6 @@
 <script>
 export default {
-    props: ["img", "title", "minDesc"]
+    props: ["route", "img", "title", "minDesc"]
 }
 </script>
 <template>
@@ -16,7 +16,7 @@ export default {
             </div>
             <div class="proyects_button">
                 <!-- añadir router link cuando este prepradp -->
-                <router-link to="/" ><p class="proyects_button_p">INSPECCIONAR</p></router-link>
+                <router-link :to="{name: route}" ><p class="proyects_button_p">INSPECCIONAR</p></router-link>
                 
             </div>
             </div>
@@ -57,6 +57,6 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 50%;
+    max-width: fit-content;
 }
 </style>

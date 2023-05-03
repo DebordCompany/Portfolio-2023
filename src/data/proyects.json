@@ -1,22 +1,48 @@
 {
     "debord": {
+        "route": "debord",
         "img": "/img/debord.jpg",
         "title": "Debord Company",
-        "minDesc": "Proyectos como freelance. He participado en numerosos proyectos por cuenta propia. Aquí teneis un recopilario de los mas destacados."
+        "minDesc": "Proyectos como freelance. He participado en numerosos proyectos por cuenta propia. Aquí teneis un recopilario de los mas destacados.",
+        "desc": {
+            "content1": "lorem imsum dolor a emet",
+            "content2": "como sigue la frase esta",
+            "content3": "pues asi digo yo que termina"
+        },
+        "galeria": ["/img/2GoTours.png", "/img/debord.jpg", "/img/ezpays-front.png", "/img/trazos.png", "/img/2GoTours.png", "/img/debord.jpg" ]
+        
     },
     "2GoTours": {
+        "route": "debord",
         "img": "/img/2GoTours.png",
         "title": "2GoTours",
-        "minDesc": "Una start-up española en la que remodele la imagen corporativa. Desde el diseño web hasta prototipado de stands para ferias."
+        "minDesc": "Una start-up española en la que remodele la imagen corporativa. Desde el diseño web hasta prototipado de stands para ferias.",
+        "desc": {
+            "content1": "lorem imsum dolor a emet",
+            "content2": "como sigue la frase esta",
+            "content3": "pues asi digo yo que termina"
+        }
     },
     "Ezpays": {
+        "route": "debord",
         "img": "/img/ezpays-front.png",
         "title": "Ezpays",
-        "minDesc": "Fintech londinense dedicada a pagos a open bank sin intermediarios. Como head of designer he remodelado la esteica de la empresa."
+        "minDesc": "Fintech londinense dedicada a pagos a open bank sin intermediarios. Como head of designer he remodelado la esteica de la empresa.",
+        "desc": {
+            "content1": "lorem imsum dolor a emet",
+            "content2": "como sigue la frase esta",
+            "content3": "pues asi digo yo que termina"
+        }
     },
     "trazos": {
+        "route": "debord",
         "img": "/img/trazos.png",
         "title": "Trazos_",
-        "minDesc": "La escuela en la que estudie me llamo para trabajar con ellos, que mejor manera de apender laboralmente que tus profesores sean tus jefes."
+        "minDesc": "La escuela en la que estudie me llamo para trabajar con ellos, que mejor manera de apender laboralmente que tus profesores sean tus jefes.",
+        "desc": {
+            "content1": "lorem imsum dolor a emet",
+            "content2": "como sigue la frase esta",
+            "content3": "pues asi digo yo que termina"
+        }
     }
 }

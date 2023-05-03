@@ -12,7 +12,7 @@ export default {
     <div class="header_width">
       <div class="header_inner">
       <div class="header_title">
-      <p class="header_title_p"> <router-link :to="{name: 'home'}"></router-link> Debord Company</p>
+      <p class="header_title_p"> <router-link :to="{name: 'home'}">Debord Company</router-link> </p>
     </div>
     <div class="header_menu">
       <div class="header_menu_icon icons" >

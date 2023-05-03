@@ -3,6 +3,13 @@
   max-width: 1200px;
   margin:0 auto;
 }
+.broad {
+  padding-left: var(--padding-main);
+  padding-right: var(--padding-main);
+}
+.gap {
+  padding-top: var(--gap-section);
+}
 .icons {
     filter: var(--color-icons);
   }

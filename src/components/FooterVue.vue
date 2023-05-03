@@ -59,7 +59,7 @@ export default {
     background: var(--black);
     color: var(--white-soft);
     display: flex;
-    
+    justify-content: center;
     gap: 2em;
     
 }
@@ -70,6 +70,7 @@ export default {
     display: flex;
     flex-direction: column;
     gap: 2em;
+    width: 100%;
     max-width: 1200px;
     
 }

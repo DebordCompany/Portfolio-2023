@@ -19,7 +19,7 @@ export default {
 </script>
 <template>
   <div class="skills" :class="bg">
-    <div class="skills_inner">
+    <div class="skills_inner broad">
       <div class="skills_title">{{ title }}</div>
       <div class="skills_hr" :class="hr">
         <hr />
@@ -63,7 +63,8 @@ export default {
   display: flex;
   flex-direction: column;
   gap: 1em;
-  padding: 2em;
+  padding-bottom: var(--gap-section);
+  
 }
 .skills_title {
   font-size: 2em;
@@ -99,5 +100,9 @@ export default {
   width: 40px;
   height: 40px;
   filter: var(--filter-normal);
+}
+.hr {
+  
+  filter: var(--color-icons);
 }
 </style>
