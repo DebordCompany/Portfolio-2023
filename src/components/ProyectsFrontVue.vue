@@ -32,7 +32,7 @@ export default {
     width: 100%;
     background: rgba(47, 45, 45, 0.31);
     color: var(--white-soft);
-    backdrop-filter: blur(6px);
+    backdrop-filter: blur(3px);
     font-weight: 800;
     font-size: 1.5em;
     

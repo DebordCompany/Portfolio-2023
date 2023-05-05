@@ -9,24 +9,24 @@ import proyects from "../data/proyects.json";
 <template>
   <div class="proyects broad">
     <ProyectsFrontVueVue
-    :img="proyects.debord.img"
-    :title="proyects.debord.title"
+    :img="proyects.tours.img"
+    :title="proyects.tours.title"
     />
     <SeoVue class="gap"
     
-    :first="proyects.debord.desc.content1"
-    :second="proyects.debord.desc.content2"
-    :third="proyects.debord.desc.content3"
+    :first="proyects.tours.desc.content1"
+    :second="proyects.tours.desc.content2"
+    :third="proyects.tours.desc.content3"
     />
     <Galeria
-    :imagenes="proyects.debord.galeria"
+    :imagenes="proyects.tours.galeria"
     />
     <ProyectsFunctions
-    :functions="proyects.debord.functions"
+    :functions="proyects.tours.functions"
     />
     <div class="proyects_contact gap">
-    <a target="blank_" :href="proyects.debord.web" class="proyects_contact_a">WEBSITE</a>
-    <a target="blank_" :href="proyects.debord.instagram" class="proyects_contact_a--icon icons"><img src="/img/instagram.svg" alt=""></a>
+    <a target="blank_" :href="proyects.tours.web" class="proyects_contact_a">WEBSITE</a>
+    <a target="blank_" :href="proyects.tours.instagram" class="proyects_contact_a--icon icons"><img src="/img/instagram.svg" alt=""></a>
    
   </div>
   </div>

@@ -4,7 +4,7 @@ export default {
 }
 </script>
 <template>
-    <div class="proyects_galeria">
+    <div class="proyects_galeria gap">
         <div class="proyects_galeria_inner" v-for="item in imagenes" :key="item">
         <img :src="item" alt="">
     </div>
@@ -16,11 +16,18 @@ export default {
     overflow: auto;
     scroll-snap-type: mandatory x;
     display: flex;
-    
+    gap: 1em;
 
     
 }
 .proyects_galeria_inner{
     min-width: 80%;
+   scroll-snap-align: center;
+   display: flex;
+   aspect-ratio: 1/1;
+   
+    
+
+
 }
 </style>

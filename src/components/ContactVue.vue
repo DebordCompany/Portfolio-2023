@@ -12,7 +12,10 @@ import FormVue from './FormVue.vue';
                     <p>Puedes descargar mi curriculum o contactarme a traves del formulario, por redes sociales...</p>
                 </div>
                 <div class="contact_title_download">
-                    <a href="/img/curriculum.pdf" target="blank_" class="contact_title_download_button">Descargar</a>
+                    <a href="/img/curriculum.pdf" target="blank_" class="contact_title_download_button"
+                    download="curriculum.pdf" >
+                        
+                        Descargar</a>
                 </div>
             </div>
             <div class="contact_form">
