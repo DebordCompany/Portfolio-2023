@@ -30,26 +30,34 @@
         "web": "https://elreferente.es/startup/2go-tours/",
         "instagram": "https://www.instagram.com/p/Cb0Qmj5KOrO/?igshid=YmMyMTA2M2Y="
     },
-    "Ezpays": {
-        "route": "tours",
+    "ezpays": {
+        "route": "ezpays",
         "img": "/img/ezpays-front.png",
         "title": "Ezpays",
         "minDesc": "Fintech londinense dedicada a pagos a open bank sin intermediarios. Como head of designer he remodelado la esteica de la empresa.",
         "desc": {
-            "content1": "lorem imsum dolor a emet",
-            "content2": "como sigue la frase esta",
-            "content3": "pues asi digo yo que termina"
-        }
+            "content1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eligendi aliquam minus magnam ad labore possimus sequi, dignissimos provident earum pariatur repellendus. Ad laboriosam necessitatibus maiores saepe quo aperiam veritatis!",
+            "content2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eligendi aliquam minus magnam ad labore possimus sequi, dignissimos provident earum pariatur repellendus. Ad laboriosam necessitatibus maiores saepe quo aperiam veritatis!",
+            "content3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eligendi aliquam minus magnam ad labore possimus sequi, dignissimos provident earum pariatur repellendus. Ad laboriosam necessitatibus maiores saepe quo aperiam veritatis!"
+        },
+        "galeria": ["/img/2GoTours.png", "/img/debord.jpg", "/img/ezpays-front.png", "/img/trazos.png", "/img/2GoTours.png", "/img/debord.jpg" ],
+        "functions":["Freelance", "Diseño aplicado a imprenta (camisetas, cartelería, gestión de color, ajuste de impresión)", "Diseño web (figma)", "desarrollo web (Vue.js, Wordpress, JS vanilla, Seo técnico, Google analytics…)"],
+        "web": "https://elreferente.es/startup/2go-tours/",
+        "instagram": "https://www.instagram.com/p/Cb0Qmj5KOrO/?igshid=YmMyMTA2M2Y="
     },
     "trazos": {
-        "route": "debord",
+        "route": "trazos",
         "img": "/img/trazos.png",
         "title": "Trazos_",
         "minDesc": "La escuela en la que estudie me llamo para trabajar con ellos, que mejor manera de apender laboralmente que tus profesores sean tus jefes.",
         "desc": {
-            "content1": "lorem imsum dolor a emet",
-            "content2": "como sigue la frase esta",
-            "content3": "pues asi digo yo que termina"
-        }
+            "content1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eligendi aliquam minus magnam ad labore possimus sequi, dignissimos provident earum pariatur repellendus. Ad laboriosam necessitatibus maiores saepe quo aperiam veritatis!",
+            "content2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eligendi aliquam minus magnam ad labore possimus sequi, dignissimos provident earum pariatur repellendus. Ad laboriosam necessitatibus maiores saepe quo aperiam veritatis!",
+            "content3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eligendi aliquam minus magnam ad labore possimus sequi, dignissimos provident earum pariatur repellendus. Ad laboriosam necessitatibus maiores saepe quo aperiam veritatis!"
+        },
+        "galeria": ["/img/2GoTours.png", "/img/debord.jpg", "/img/ezpays-front.png", "/img/trazos.png", "/img/2GoTours.png", "/img/debord.jpg" ],
+        "functions":["Freelance", "Diseño aplicado a imprenta (camisetas, cartelería, gestión de color, ajuste de impresión)", "Diseño web (figma)", "desarrollo web (Vue.js, Wordpress, JS vanilla, Seo técnico, Google analytics…)"],
+        "web": "https://elreferente.es/startup/2go-tours/",
+        "instagram": "https://www.instagram.com/p/Cb0Qmj5KOrO/?igshid=YmMyMTA2M2Y="
     }
 }
