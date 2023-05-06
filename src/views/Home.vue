@@ -43,7 +43,7 @@ export default {
         square="home_front_square--left"
         imagen="/img/buho_right.png"
       />
-      <div class="home_skills gap" id="skills">
+      <div class="home_skills gap " id="skills">
         <div class="home_skills_title">
           <h4>Skills</h4>
         </div>
@@ -92,9 +92,7 @@ export default {
       class="home_contact"
       id="cv"
       />
-      <div class="broad gap back">
-        <p>Good Bye</p>
-      </div>
+      <FrontVue class="gap back" imagen="/img/buho_left.png" />
     </section>
   </div>
 </template>
@@ -108,6 +106,7 @@ export default {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 6em;
+    padding-top: 4em;
   }
 }
 .proyects_title{
@@ -144,7 +143,8 @@ export default {
   
   
   @include tablet(){
-    
+    background: #f2f2f2;
+    padding-bottom: 3em;
     grid-column: 1/3;
   }
 }

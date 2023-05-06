@@ -18,6 +18,7 @@ export default {
       const cv = document.querySelector("#cv");
       cv.scrollIntoView();
     },
+    
   },
 }
 </script>
@@ -27,9 +28,10 @@ export default {
         <div class="footer_main">
         <div class="footer_main_link">
             <ul class="footer_main_link_ul">
-                <li @click="skills()" class="footer_main_link_li">Skills</li>
-                <li @click="proyects()" class="footer_main_link_li">Proyectos</li>
-                <li @click="cv()" class="footer_main_link_li">Contacto</li>
+                <li @click="skills()" class="footer_main_link_li"><router-link :to="{name: 'home'}">Skills</router-link></li>
+                <li @click="proyects()" class="footer_main_link_li"><router-link :to="{name: 'home'}">Proyectos</router-link></li>
+                <li @click="cv()" class="footer_main_link_li"><router-link :to="{name: 'home'}">Contacto</router-link></li>
+                
                 <li class="footer_main_link_li"><a target="blank_" href="https://lasvegascafeteria.es/" class="footer_main_link_li_a">Las Vegas</a></li>
                 <li class="footer_main_link_li"><a target="blank_" href="https://pildorasculinarias.com/" class="footer_main_link_li_a">Pildoras Culinarias</a></li>
                 <li class="footer_main_link_li"><router-link :to="{ name: 'galeria' }">Galería</router-link></li>

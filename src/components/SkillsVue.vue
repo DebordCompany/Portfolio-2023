@@ -58,6 +58,7 @@ export default {
 .skills--bg {
   background: var(--color-primary);
   color: var(--white-soft);
+  
 }
 .skills_inner {
   display: flex;

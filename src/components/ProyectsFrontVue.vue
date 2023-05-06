@@ -23,6 +23,13 @@ export default {
   max-height: 30vh;
   overflow: hidden;
   filter: brightness(80%);
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.proyects_front_img img {
+ width: 100%;
+ height: 100%;
+
 }
 
 .proyects_front_title {
