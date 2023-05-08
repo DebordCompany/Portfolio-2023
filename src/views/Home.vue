@@ -21,7 +21,7 @@ export default {
 </script>
 
 <template>
-  <div class="">
+  <div class="bg_puntos">
     <section class="home">
       <TitleVue class="broad home_title" text="Graphic designer and front-end developer" />
       <FrontVue class="gap desktop_none" imagen="/img/buho_left.png" />
@@ -97,6 +97,15 @@ export default {
   </div>
 </template>
 <style lang="scss" scoped>
+.bg_puntos{
+  @include tablet (){
+    background: url("/img/fondo-puntos.svg");
+  background-repeat: repeat ;
+  background-size: 20%;
+  box-shadow: 0px 0px 100px -5px rgba(0, 0, 0, 0.106);
+  }
+  
+}
 .home {
   padding-top: 2em;
   
@@ -117,6 +126,7 @@ export default {
   margin-top: var(--gap-section);
   @include tablet(){
     margin-bottom: var(--gap-section);
+    margin-left: 2em;
   }
 }
 .desktop_none{
@@ -143,9 +153,10 @@ export default {
   
   
   @include tablet(){
-    background: #f2f2f2;
+   
     padding-bottom: 3em;
     grid-column: 1/3;
+    margin-right: 2em ;
   }
 }
 .home_skills_title{
@@ -172,6 +183,9 @@ export default {
   @include tablet(){
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
+}
+.home_contact{
+
 }
 .back{
   display: none;

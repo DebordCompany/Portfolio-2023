@@ -48,10 +48,12 @@ export default {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 }
 .main_inner{
   padding-top: 4em;
   max-width: 1200px;
+  
 }
 .home_menu {
   overflow: hidden;

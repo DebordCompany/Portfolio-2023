@@ -52,6 +52,7 @@ export default {
 .header_width{
   max-width: 1200px;
   width: 100%;
+  
 }
 .header_inner {
     background: var(--color-background);

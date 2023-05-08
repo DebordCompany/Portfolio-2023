@@ -19,7 +19,7 @@ export default {
 </script>
 <template>
   <div class="skills" :class="bg">
-    <div class="skills_inner broad">
+    <div class="skills_inner ">
       <div class="skills_title">{{ title }}</div>
       <div class="skills_hr" :class="hr">
         <hr />
@@ -65,6 +65,9 @@ export default {
   flex-direction: column;
   gap: 1em;
   padding-bottom: var(--gap-section);
+  padding: var(--padding-main);
+
+  
   
 }
 .skills_title {
