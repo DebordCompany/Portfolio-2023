@@ -1,7 +1,7 @@
 {
     "debord": {
         "route": "debord",
-        "img": "/img/debord.jpg",
+        "img": "/img/debord.webp",
         "title": "Debord Company",
         "minDesc": "Proyectos como freelance. He participado en numerosos proyectos por cuenta propia. Aquí tenéis un recopilatorio de los mas destacados...",
         "desc": {
@@ -9,7 +9,7 @@
             "content2": "Mi amplia experiencia en el diseño gráfico y de marca también se ha extendido al ámbito digital y al desarrollo web. Como parte de mi trabajo en Debord Company, he creado piezas publicitarias y páginas web que destacan la identidad y el estilo de diversas empresas en distintos sectores. Utilizando tecnologías modernas de desarrollo web, he logrado desarrollar sitios web atractivos y funcionales, ofreciendo una experiencia de usuario de alta calidad y una navegación intuitiva.",
             "content3": "A lo largo de mi carrera, he tenido el privilegio de trabajar en diversos sectores, incluyendo hostelería, publicidad, turismo, ropa deportiva y arte final. Esta experiencia versátil me ha permitido adaptarme rápidamente a diferentes necesidades y desafíos. He creado soluciones personalizadas y efectivas para cada industria, demostrando mi capacidad para comprender las necesidades específicas de cada cliente y ofrecer resultados sobresalientes. Mi experiencia multidisciplinaria me ha dotado de una perspectiva única y creativa, que se refleja en mi enfoque holístico hacia el diseño y desarrollo web."
         },
-        "galeria": ["/img/debord.jpg", "/img/debord1.png", "/img/debord2.png", "/img/debord3.png", "/img/debord4.png", "/img/debord5.png", "/img/debord6.png", "/img/debord7.png", "/img/debord8.png", "/img/debord9.jpg", "/img/debord10.png", "/img/debord11.png", "/img/debord12.png", "/img/debord13.png" ],
+        "galeria": ["/img/debord.webp", "/img/debord1.webp", "/img/debord2.webp", "/img/debord3.webp", "/img/debord4.webp", "/img/debord5.webp", "/img/debord6.webp", "/img/debord7.webp", "/img/debord8.webp", "/img/debord9.webp", "/img/debord10.webp", "/img/debord11.webp", "/img/debord12.webp", "/img/debord13.webp" ],
         "functions":["Diseño con las principales herramientas del sector (Photoshop, Illustrator..)", "Diseño aplicado a imprenta (camisetas, cartelería, gestión de color, ajuste de impresión)", "Diseño web (figma)", "desarrollo web (Vue.js, Wordpress, JS vanilla, Seo técnico, Google analytics…)"],
         "web": "https://debordcompany.es/",
         "instagram": "https://www.instagram.com/debordcompany/?igshid=YmMyMTA2M2Y%3D"
@@ -17,7 +17,7 @@
     },
     "tours": {
         "route": "tours",
-        "img": "/img/2GoTours.png",
+        "img": "/img/2GoTours.webp",
         "title": "2GoTours",
         "minDesc": "Una start-up española en la que remodele la imagen corporativa. Desde el diseño web hasta prototipado de stands para ferias...",
         "desc": {
@@ -25,14 +25,14 @@
             "content2": "En cuanto a mi papel como diseñador de UX/UI, trabajé en la mejora de la experiencia del usuario en la plataforma de 2GoTours. Diseñé interfaces intuitivas, optimizadas y atractivas para los usuarios, lo que aumentó la satisfacción del cliente y mejoró la reputación de la empresa en el mercado. Por último, como diseñador audiovisual, realicé piezas de publicidad en línea para SEM, que ayudaron a promocionar los tours y la empresa en diferentes plataformas.",
             "content3": "En resumen, como diseñador gráfico y desarrollador web, desempeñé un papel clave en el éxito de 2GoTours. Contribuí al reconocimiento de la marca, la creación de nuevos productos turísticos, la mejora de la experiencia del usuario y la promoción de la empresa en línea."
         },
-        "galeria": ["/img/tours1.png", "/img/tours2.png", "/img/tours3.jpg", "/img/tours4.png", "/img/tours5.jpg", "/img/tours6.png", "/img/tours7.png", "/img/tours8.jpg", "/img/tours9.jpg" ],
+        "galeria": ["/img/tours1.webp", "/img/tours2.webp", "/img/tours3.webp", "/img/tours4.webp", "/img/tours5.webp", "/img/tours6.webp", "/img/tours7.webp", "/img/tours8.webp", "/img/tours9.webp" ],
         "functions":["Diseño de productos digitales", "Creación de imagen corporativa", "Impresión y diseño de ropa corporativa", "Diseño de producto", "Diseño de cartelería", "Gestión, diseño y mantenimiento de WordPress"],
         "web": "https://elreferente.es/startup/2go-tours/",
         "instagram": "https://www.instagram.com/p/Cb0Qmj5KOrO/?igshid=YmMyMTA2M2Y="
     },
     "ezpays": {
         "route": "ezpays",
-        "img": "/img/ezpays-front.png",
+        "img": "/img/ezpays-front.webp",
         "title": "Ezpays",
         "minDesc": "Fintech londinense dedicada a pagos a open bank sin intermediarios. Como head of designer he remodelado la esteica de la empresa.",
         "desc": {
@@ -40,14 +40,14 @@
             "content2": "También he tenido la responsabilidad de integrar la pasarela de pago en las páginas web de Ezpays. Esto ha sido crucial para el funcionamiento de la empresa, ya que permite a los clientes realizar transacciones de manera segura y fácil. Además, he maquetado recursos web para mejorar la navegación y la experiencia del usuario en el sitio web. Como diseñador de UI/UX, he rediseñado la interfaz de usuario de la plataforma, lo que ha mejorado significativamente la usabilidad de la aplicación.",
             "content3": "En resumen, como diseñador gráfico y desarrollador web, he desempeñado un papel importante en la mejora de la imagen y la presencia en línea de Ezpays, una empresa en plena expansión y con numerosos retos diarios que superar. En el entorno de una start-up, cada día se presentan nuevas situaciones y desafíos que requieren soluciones rápidas y efectivas. Este entorno dinámico me ha permitido aprender rápidamente y adquirir nuevas habilidades en un corto período de tiempo. Todo esto ha contribuido a la satisfacción del cliente y al éxito de la empresa en el mercado en constante evolución."
         },
-        "galeria": ["/img/ez1.jpg","/img/ez2.jpg", "/img/ez3.jpg", "/img/ez4.jpg" ],
+        "galeria": ["/img/ez1.webp","/img/ez2.webp", "/img/ez3.webp", "/img/ez4.webp" ],
         "functions":["Diseñar documentos corporativos para venta final", "Desarrollo en WordPress", "Maquetación web con Elementor", "Crear recursos adaptados a las necesidades", "Integración de pasarela de pagos", "Gestión con cliente final"],
         "web": "https://ezpays.io/",
         "instagram": "https://www.linkedin.com/company/ezpaysio/?originalSubdomain=es"
     },
     "trazos": {
         "route": "trazos",
-        "img": "/img/trazos.png",
+        "img": "/img/trazos.webp",
         "title": "Trazos_",
         "minDesc": "La escuela en la que estudie me llamo para trabajar con ellos, que mejor manera de aprender laboralmente que tus profesores sean tus jefes.",
         "desc": {
@@ -55,7 +55,7 @@
             "content2": "En Trazos, he tenido la oportunidad de integrar soluciones personalizadas en los proyectos de desarrollo web, lo que ha contribuido a aumentar la eficiencia y el rendimiento de los sitios web. También he aplicado mis habilidades como diseñador de productos, lo que ha permitido a la empresa ofrecer soluciones integrales y de alta calidad a sus clientes.",
             "content3": "Trazos cuenta con un equipo docente altamente cualificado, con amplia experiencia en el sector y en constante actualización, así como con una amplia variedad de herramientas y tecnologías de última generación para apoyar el aprendizaje práctico de los estudiantes. Como parte de su equipo de desarrollo web, he tenido la oportunidad de trabajar en un entorno dinámico y desafiante, en el que he podido desarrollar y perfeccionar mis habilidades técnicas y creativas."
         },
-        "galeria": ["/img/trazos.png", "/img/trazos1.png",  "/img/trazos2.png", "/img/trazos3.png"],
+        "galeria": ["/img/trazos.webp", "/img/trazos1.webp",  "/img/trazos2.webp", "/img/trazos3.webp"],
         "functions":["Diseño web", "desarrollo web con WordPress", "Desarrollo de scripts personalizados", "Edición de fotografía y video", "Integración de soluciones personalizadas,", "Diseño de producto"],
         "web": "https://trazos.net/",
         "instagram": "https://www.instagram.com/trazos_/"

@@ -24,7 +24,7 @@ export default {
   <div class="bg_puntos">
     <section class="home">
       <TitleVue class="broad home_title" text="Graphic designer and front-end developer" />
-      <FrontVue class="gap desktop_none" imagen="/img/buho_left.png" />
+      <FrontVue class="gap desktop_none" imagen="/img/buho_left.webp" />
       <HallVue
         class="broad gap desktop_none"
         item_1="Skills"
@@ -41,7 +41,7 @@ export default {
         class="gap desktop_none"
         container="home_front_container--left"
         square="home_front_square--left"
-        imagen="/img/buho_right.png"
+        imagen="/img/buho_right.webp"
       />
       <div class="home_skills gap " id="skills">
         <div class="home_skills_title">
@@ -92,7 +92,7 @@ export default {
       class="home_contact"
       id="cv"
       />
-      <FrontVue class="gap back" imagen="/img/buho_left.png" />
+      <FrontVue class="gap back" imagen="/img/buho_left.webp" />
     </section>
   </div>
 </template>

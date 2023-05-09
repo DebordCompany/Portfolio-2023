@@ -1,23 +1,23 @@
 {
 
     "debord": {
-        "img": "/img/debord.jpg",
+        "img": "/img/debord.webp",
         "alt": "imagen de debord"
     },
     "2gotours": {
-        "img": "/img/2GoTours.png",
+        "img": "/img/2GoTours.webp",
         "alt": "imagen de 2GoTours"
     },
     "buhoizq": {
-        "img": "/img/buho_left.png",
+        "img": "/img/buho_left.webp",
         "alt": "imagen de buho izquierda"
     },
     "buhoder": {
-        "img": "/img/buho_right.png",
+        "img": "/img/buho_right.webp",
         "alt": "imagen de buho der"
     },
     "ezpays": {
-        "img": "/img/ezpays-front.png",
+        "img": "/img/ezpays-front.webp",
         "alt": "imagen de ezpays"
     },
     "githubwhite": {
@@ -45,7 +45,7 @@
         "alt": "imagen de linkedin"
     },
     "trazos": {
-        "img": "/img/trazos.png",
+        "img": "/img/trazos.webp",
         "alt": "imagen de trazos"
     }
        
