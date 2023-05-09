@@ -102,8 +102,12 @@ export default {
   padding: 0.5em;
   border: 1px solid var(--white-soft);
 }
+
 input::placeholder {
   color: var(--white-soft);
+}
+input{
+  border-radius: 0px;
 }
 .form_container_inner_input--submit {
   padding: 0.5em;

@@ -48,9 +48,9 @@ export default {
             </p>
         </div>
         <div class="footer_main_icons">
-            <a href="" class="footer_main_icons_link"><img src="/img/github-white.svg" alt=""></a>
-            <a href="" class="footer_main_icons_link"><img src="/img/linkedin-white.svg" alt=""></a>
-            <a href="" class="footer_main_icons_link"><img src="/img/instagram-white.svg" alt=""></a>
+            <a href="https://github.com/DebordCompany" class="footer_main_icons_link"><img src="/img/github-white.svg" alt=""></a>
+            <a href="https://www.linkedin.com/in/mario-sanz-guti%C3%A9rrez-designer-2730531b8/" class="footer_main_icons_link"><img src="/img/linkedin-white.svg" alt=""></a>
+            <a href="https://www.instagram.com/debordcompany/?igshid=YmMyMTA2M2Y%3D" class="footer_main_icons_link"><img src="/img/instagram-white.svg" alt=""></a>
         </div>
     </div> 
     </div>
