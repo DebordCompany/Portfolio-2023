@@ -5,12 +5,12 @@
         "title": "Debord Company",
         "minDesc": "Proyectos como freelance. He participado en numerosos proyectos por cuenta propia. Aquí tenéis un recopilatorio de los mas destacados...",
         "desc": {
-            "content1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eligendi aliquam minus magnam ad labore possimus sequi, dignissimos provident earum pariatur repellendus. Ad laboriosam necessitatibus maiores saepe quo aperiam veritatis!",
-            "content2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eligendi aliquam minus magnam ad labore possimus sequi, dignissimos provident earum pariatur repellendus. Ad laboriosam necessitatibus maiores saepe quo aperiam veritatis!",
-            "content3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eligendi aliquam minus magnam ad labore possimus sequi, dignissimos provident earum pariatur repellendus. Ad laboriosam necessitatibus maiores saepe quo aperiam veritatis!"
+            "content1": "En Debord Company, la empresa que fundé en 2017, he llevado a cabo diversos proyectos que combinan mi experiencia en diseño gráfico y desarrollo web. Como diseñador gráfico, mi pasión radica en crear soluciones visuales impactantes y efectivas. A través de mi experiencia en diversos sectores, como hostelería, publicidad, turismo, ropa deportiva y arte final, he desarrollado un enfoque versátil y adaptable.Me encanta resaltar la identidad de las marcas y crear una estética coherente y atractiva que conecte con el público objetivo.",
+            "content2": "Mi amplia experiencia en el diseño gráfico y de marca también se ha extendido al ámbito digital y al desarrollo web. Como parte de mi trabajo en Debord Company, he creado piezas publicitarias y páginas web que destacan la identidad y el estilo de diversas empresas en distintos sectores. Utilizando tecnologías modernas de desarrollo web, he logrado desarrollar sitios web atractivos y funcionales, ofreciendo una experiencia de usuario de alta calidad y una navegación intuitiva.",
+            "content3": "A lo largo de mi carrera, he tenido el privilegio de trabajar en diversos sectores, incluyendo hostelería, publicidad, turismo, ropa deportiva y arte final. Esta experiencia versátil me ha permitido adaptarme rápidamente a diferentes necesidades y desafíos. He creado soluciones personalizadas y efectivas para cada industria, demostrando mi capacidad para comprender las necesidades específicas de cada cliente y ofrecer resultados sobresalientes. Mi experiencia multidisciplinaria me ha dotado de una perspectiva única y creativa, que se refleja en mi enfoque holístico hacia el diseño y desarrollo web."
         },
         "galeria": ["/img/2GoTours.png", "/img/debord.jpg", "/img/ezpays-front.png", "/img/trazos.png", "/img/2GoTours.png", "/img/debord.jpg" ],
-        "functions":["Freelance", "Diseño aplicado a imprenta (camisetas, cartelería, gestión de color, ajuste de impresión)", "Diseño web (figma)", "desarrollo web (Vue.js, Wordpress, JS vanilla, Seo técnico, Google analytics…)"],
+        "functions":["Diseño con las principales herramientas del sector (Photoshop, Illustrator..)", "Diseño aplicado a imprenta (camisetas, cartelería, gestión de color, ajuste de impresión)", "Diseño web (figma)", "desarrollo web (Vue.js, Wordpress, JS vanilla, Seo técnico, Google analytics…)"],
         "web": "https://debordcompany.es/",
         "instagram": "https://www.instagram.com/debordcompany/?igshid=YmMyMTA2M2Y%3D"
         
@@ -21,12 +21,12 @@
         "title": "2GoTours",
         "minDesc": "Una start-up española en la que remodele la imagen corporativa. Desde el diseño web hasta prototipado de stands para ferias...",
         "desc": {
-            "content1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eligendi aliquam minus magnam ad labore possimus sequi, dignissimos provident earum pariatur repellendus. Ad laboriosam necessitatibus maiores saepe quo aperiam veritatis!",
-            "content2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eligendi aliquam minus magnam ad labore possimus sequi, dignissimos provident earum pariatur repellendus. Ad laboriosam necessitatibus maiores saepe quo aperiam veritatis!",
-            "content3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eligendi aliquam minus magnam ad labore possimus sequi, dignissimos provident earum pariatur repellendus. Ad laboriosam necessitatibus maiores saepe quo aperiam veritatis!"
+            "content1": "2GoTours es una start-up española especializada en el turismo, que ofrece tours online por ciudades de todo el mundo. Como diseñador gráfico y de marca, mi trabajo en 2GoTours consistió en diseñar la cartelería y la impresión textil, lo que ayudó a aumentar el reconocimiento de marca y la identificación de la empresa en el mercado. Además, como diseñador de producto, ayudé en la creación de nuevos productos turísticos, lo que contribuyó a la diversificación de la oferta de la empresa.",
+            "content2": "En cuanto a mi papel como diseñador de UX/UI, trabajé en la mejora de la experiencia del usuario en la plataforma de 2GoTours. Diseñé interfaces intuitivas, optimizadas y atractivas para los usuarios, lo que aumentó la satisfacción del cliente y mejoró la reputación de la empresa en el mercado. Por último, como diseñador audiovisual, realicé piezas de publicidad en línea para SEM, que ayudaron a promocionar los tours y la empresa en diferentes plataformas.",
+            "content3": "En resumen, como diseñador gráfico y desarrollador web, desempeñé un papel clave en el éxito de 2GoTours. Contribuí al reconocimiento de la marca, la creación de nuevos productos turísticos, la mejora de la experiencia del usuario y la promoción de la empresa en línea."
         },
         "galeria": ["/img/2GoTours.png", "/img/debord.jpg", "/img/ezpays-front.png", "/img/trazos.png", "/img/2GoTours.png", "/img/debord.jpg" ],
-        "functions":["Freelance", "Diseño aplicado a imprenta (camisetas, cartelería, gestión de color, ajuste de impresión)", "Diseño web (figma)", "desarrollo web (Vue.js, Wordpress, JS vanilla, Seo técnico, Google analytics…)"],
+        "functions":["Diseño de productos digitales", "Creación de imagen corporativa", "Impresión y diseño de ropa corporativa", "Diseño de producto", "Diseño de cartelería", "Gestión, diseño y mantenimiento de wordpress"],
         "web": "https://elreferente.es/startup/2go-tours/",
         "instagram": "https://www.instagram.com/p/Cb0Qmj5KOrO/?igshid=YmMyMTA2M2Y="
     },
@@ -36,14 +36,14 @@
         "title": "Ezpays",
         "minDesc": "Fintech londinense dedicada a pagos a open bank sin intermediarios. Como head of designer he remodelado la esteica de la empresa.",
         "desc": {
-            "content1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eligendi aliquam minus magnam ad labore possimus sequi, dignissimos provident earum pariatur repellendus. Ad laboriosam necessitatibus maiores saepe quo aperiam veritatis!",
-            "content2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eligendi aliquam minus magnam ad labore possimus sequi, dignissimos provident earum pariatur repellendus. Ad laboriosam necessitatibus maiores saepe quo aperiam veritatis!",
-            "content3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eligendi aliquam minus magnam ad labore possimus sequi, dignissimos provident earum pariatur repellendus. Ad laboriosam necessitatibus maiores saepe quo aperiam veritatis!"
+            "content1": "Ezpays es una empresa ubicada en Londres que se dedica a transferencias bancarias entre empresas y particulares a través de una pasarela de pago. Como diseñador gráfico y desarrollador web, he trabajado en varios proyectos para Ezpays. Por un lado, he diseñado documentos corporativos, lo que ha ayudado a reforzar la imagen y la marca de la empresa. Además, he creado varias páginas web utilizando WordPress y Elementor, lo que ha permitido a la empresa tener una presencia en línea profesional y atractiva para los clientes.",
+            "content2": "También he tenido la responsabilidad de integrar la pasarela de pago en las páginas web de Ezpays. Esto ha sido crucial para el funcionamiento de la empresa, ya que permite a los clientes realizar transacciones de manera segura y fácil. Además, he maquetado recursos web para mejorar la navegación y la experiencia del usuario en el sitio web. Como diseñador de UI/UX, he rediseñado la interfaz de usuario de la plataforma, lo que ha mejorado significativamente la usabilidad de la aplicación.",
+            "content3": "En resumen, como diseñador gráfico y desarrollador web, he desempeñado un papel importante en la mejora de la imagen y la presencia en línea de Ezpays, una empresa en plena expansión y con numerosos retos diarios que superar. En el entorno de una start-up, cada día se presentan nuevas situaciones y desafíos que requieren soluciones rápidas y efectivas. Este entorno dinámico me ha permitido aprender rápidamente y adquirir nuevas habilidades en un corto período de tiempo. Todo esto ha contribuido a la satisfacción del cliente y al éxito de la empresa en el mercado en constante evolución."
         },
         "galeria": ["/img/2GoTours.png", "/img/debord.jpg", "/img/ezpays-front.png", "/img/trazos.png", "/img/2GoTours.png", "/img/debord.jpg" ],
-        "functions":["Freelance", "Diseño aplicado a imprenta (camisetas, cartelería, gestión de color, ajuste de impresión)", "Diseño web (figma)", "desarrollo web (Vue.js, Wordpress, JS vanilla, Seo técnico, Google analytics…)"],
-        "web": "https://elreferente.es/startup/2go-tours/",
-        "instagram": "https://www.instagram.com/p/Cb0Qmj5KOrO/?igshid=YmMyMTA2M2Y="
+        "functions":["Diseñar documentos corporativos para venta final", "Desarrollo en WordPress", "Maquetación web con Elementor", "Crear recursos adaptados a las necesidades", "Integración de pasarela de pagos", "Gestión con cliente final"],
+        "web": "https://ezpays.io/",
+        "instagram": "https://www.linkedin.com/company/ezpaysio/?originalSubdomain=es"
     },
     "trazos": {
         "route": "trazos",
@@ -51,13 +51,13 @@
         "title": "Trazos_",
         "minDesc": "La escuela en la que estudie me llamo para trabajar con ellos, que mejor manera de apender laboralmente que tus profesores sean tus jefes.",
         "desc": {
-            "content1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eligendi aliquam minus magnam ad labore possimus sequi, dignissimos provident earum pariatur repellendus. Ad laboriosam necessitatibus maiores saepe quo aperiam veritatis!",
-            "content2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eligendi aliquam minus magnam ad labore possimus sequi, dignissimos provident earum pariatur repellendus. Ad laboriosam necessitatibus maiores saepe quo aperiam veritatis!",
-            "content3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eligendi aliquam minus magnam ad labore possimus sequi, dignissimos provident earum pariatur repellendus. Ad laboriosam necessitatibus maiores saepe quo aperiam veritatis!"
+            "content1": "Trazos es una prestigiosa escuela de diseño gráfico y desarrollo web ubicada en Madrid, en la céntrica Plaza España. Tuve la oportunidad de incorporarme al equipo de desarrollo web de Trazos, donde he desempeñado un papel crucial en varios proyectos. Como diseñador gráfico y desarrollador web, he diseñado y desarrollado sitios web con WordPress, lo que ha permitido a la empresa ofrecer soluciones de alta calidad a sus clientes. Además, he creado scripts personalizados y he realizado ediciones de fotografía y video para mejorar la apariencia visual de los proyectos.",
+            "content2": "En Trazos, he tenido la oportunidad de integrar soluciones personalizadas en los proyectos de desarrollo web, lo que ha contribuido a aumentar la eficiencia y el rendimiento de los sitios web. También he aplicado mis habilidades como diseñador de productos, lo que ha permitido a la empresa ofrecer soluciones integrales y de alta calidad a sus clientes.",
+            "content3": "Trazos cuenta con un equipo docente altamente cualificado, con amplia experiencia en el sector y en constante actualización, así como con una amplia variedad de herramientas y tecnologías de última generación para apoyar el aprendizaje práctico de los estudiantes. Como parte de su equipo de desarrollo web, he tenido la oportunidad de trabajar en un entorno dinámico y desafiante, en el que he podido desarrollar y perfeccionar mis habilidades técnicas y creativas."
         },
         "galeria": ["/img/2GoTours.png", "/img/debord.jpg", "/img/ezpays-front.png", "/img/trazos.png", "/img/2GoTours.png", "/img/debord.jpg" ],
-        "functions":["Freelance", "Diseño aplicado a imprenta (camisetas, cartelería, gestión de color, ajuste de impresión)", "Diseño web (figma)", "desarrollo web (Vue.js, Wordpress, JS vanilla, Seo técnico, Google analytics…)"],
-        "web": "https://elreferente.es/startup/2go-tours/",
-        "instagram": "https://www.instagram.com/p/Cb0Qmj5KOrO/?igshid=YmMyMTA2M2Y="
+        "functions":["Diseño web", "desarrollo web con WordPress", "Desarrollo de scripts personalizados", "Edición de fotografía y video", "Integración de soluciones personalizadas,", "Diseño de producto"],
+        "web": "https://trazos.net/",
+        "instagram": "https://www.instagram.com/trazos_/"
     }
 }
