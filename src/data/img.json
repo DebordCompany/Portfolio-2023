@@ -4,6 +4,10 @@
         "img": "/img/debord.webp",
         "alt": "imagen de debord"
     },
+    "debordpng": {
+        "img": "/img/buho_right.png",
+        "alt": "imagen de debord"
+    },
     "2gotours": {
         "img": "/img/2GoTours.webp",
         "alt": "imagen de 2GoTours"
@@ -36,6 +40,14 @@
         "img": "/img/instagram.svg",
         "alt": "imagen de instagram"
     },
+    "instapng": {
+        "img": "/img/instagram.png",
+        "alt": "imagen de instagram"
+    },
+    "email": {
+        "img": "/img/email.png",
+        "alt": "imagen de email"
+    },
     "linkedinwhite": {
         "img": "/img/linkedin-white.svg",
         "alt": "imagen de linkedin white"
@@ -44,10 +56,139 @@
         "img": "/img/linkedin.svg",
         "alt": "imagen de linkedin"
     },
+    "linkedinpng": {
+        "img": "/img/linkedin.png",
+        "alt": "imagen de linkedin"
+    },
     "trazos": {
         "img": "/img/trazos.webp",
         "alt": "imagen de trazos"
+    },
+    "trazos1": {
+        "img": "/img/trazos1.webp",
+        "alt": "imagen de trazos"
+    },
+    "trazos2": {
+        "img": "/img/trazos2.webp",
+        "alt": "imagen de trazos"
+    },
+    "trazos3": {
+        "img": "/img/trazos3.webp",
+        "alt": "imagen de trazos"
+    },
+    "tours1": {
+        "img": "/img/tours1.webp",
+        "alt": "imagen de 2GoTours"
+    },
+    "tours2": {
+        "img": "/img/tours2.webp",
+        "alt": "imagen de 2GoTours"
+    },
+    "tours3": {
+        "img": "/img/tours3.webp",
+        "alt": "imagen de 2GoTours"
+    },
+    "tours4": {
+        "img": "/img/tours4.webp",
+        "alt": "imagen de 2GoTours"
+    },
+    "tours5": {
+        "img": "/img/tours5.webp",
+        "alt": "imagen de 2GoTours"
+    },
+    "tours6": {
+        "img": "/img/tours6.webp",
+        "alt": "imagen de 2GoTours"
+    },
+    "tours7": {
+        "img": "/img/tours7.webp",
+        "alt": "imagen de 2GoTours"
+    },
+    "tours8": {
+        "img": "/img/tours8.webp",
+        "alt": "imagen de 2GoTours"
+    },
+    "tours9": {
+        "img": "/img/tours9.webp",
+        "alt": "imagen de 2GoTours"
+    },
+    "ez1": {
+        "img": "/img/ez1.webp",
+        "alt": "imagen de Ezpays"
+    },
+    "ez2": {
+        "img": "/img/ez2.webp",
+        "alt": "imagen de Ezpays"
+    },
+    "ez3": {
+        "img": "/img/ez3.webp",
+        "alt": "imagen de Ezpays"
+    },
+    "ez4": {
+        "img": "/img/ez4.webp",
+        "alt": "imagen de Ezpays"
+    },
+    "debord1": {
+        "img": "/img/debord1.webp",
+        "alt": "imagen de Debord"
+    },
+    "debord1": {
+        "img": "/img/debord1.webp",
+        "alt": "imagen de Debord"
+    },
+    "debord1": {
+        "img": "/img/debord1.webp",
+        "alt": "imagen de Debord"
+    },
+    "debord2": {
+        "img": "/img/debord2.webp",
+        "alt": "imagen de Debord"
+    },
+    "debord3": {
+        "img": "/img/debord3.webp",
+        "alt": "imagen de Debord"
+    },
+    "debord4": {
+        "img": "/img/debord4.webp",
+        "alt": "imagen de Debord"
+    },
+    "debord5": {
+        "img": "/img/debord5.webp",
+        "alt": "imagen de Debord"
+    },
+    "debord6": {
+        "img": "/img/debord6.webp",
+        "alt": "imagen de Debord"
+    },
+    "debord7": {
+        "img": "/img/debord7.webp",
+        "alt": "imagen de Debord"
+    },
+    "debord8": {
+        "img": "/img/debord8.webp",
+        "alt": "imagen de Debord"
+    },
+    "debord9": {
+        "img": "/img/debord9.webp",
+        "alt": "imagen de Debord"
+    },
+    "debord10": {
+        "img": "/img/debord10.webp",
+        "alt": "imagen de Debord"
+    },
+    "debord11": {
+        "img": "/img/debord11.webp",
+        "alt": "imagen de Debord"
+    },
+    "debord12": {
+        "img": "/img/debord12.webp",
+        "alt": "imagen de Debord"
+    },
+    "debord13": {
+        "img": "/img/debord13.webp",
+        "alt": "imagen de Debord"
     }
+
        
         
     
