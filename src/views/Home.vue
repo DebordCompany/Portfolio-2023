@@ -209,5 +209,10 @@ export default {
   scroll-margin-top: 2em;
   
 }
+@media (prefers-color-scheme: dark){
+  .bg_puntos{
+    background: none;
+  }
+}
 
 </style>

@@ -18,10 +18,10 @@ export default {
   padding-bottom: 2rem;
   @include tablet() {
     background: #6130ca;
-    background: linear-gradient(to bottom right, #6130ca 0%, #303030 100%);
+    background: linear-gradient(to bottom right, #865dde 0%, #0bd7bc 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
+    
     width: 100%;
     font-size: 2em;
     max-width: 800px;
